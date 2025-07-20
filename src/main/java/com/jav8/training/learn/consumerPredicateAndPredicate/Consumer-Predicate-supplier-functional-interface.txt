@@ -1,0 +1,42 @@
+Better understanding :-> https://jenkov.com/tutorials/java-functional-programming/functional-composition.html
+
+Consumer,  Predicate and supplier are predefined functional interface in JAVA8.
+If you want to play with stream API, then we must need to understand these 3 API.
+
+
+What is Consumer Functional Interface :-->
+A Consumer is a functional interface that accepts a single input and returns no output.
+This is a functional interface whose functional method is accept(Object) .
+
+Where is Consumer interface used?
+It can be used as the assignment target for a lambda expression or method reference. 
+The Consumer Interface accepts a single argument and does not return any result.
+
+Consumer Functional Interface have 1 abstract method  void accept (T t) which not returns any value.
+and have default  Consumer<T> andThen(Consumer<? super T>,after) method.
+
+The Java Consumer interface is a functional interface that represents an function that 
+consumes a value without returning any value.
+
+What is Predicate Functional Interface :-->
+This Predicate Functional Interface used for conditional check.
+
+Predicate<T> is a generic functional interface that represents a single argument function 
+that returns a boolean value (true or false). This interface available in java.util.
+function package and contains a test(T t) method that evaluates the predicate of a given argument.
+
+The Java Predicate interface, java.util.function.Predicate, represents a simple function that 
+takes a single value as parameter, and returns true or false. 
+
+
+what is supplier functional interface :-->
+Better understanding :-> https://javabydeveloper.com/java-8-supplier-functional-interface-with-examples/
+
+Supplier can be used in all contexts where there is no input required but an output is expected.
+
+Java 8 Supplier is a functional interface whose functional method is  get(). 
+The Supplier interface represents an operation that takes no argument and returns a result. 
+
+supplier interface is represents an operation that takes no argument and returns a result, 
+whose functional method is get() .
+

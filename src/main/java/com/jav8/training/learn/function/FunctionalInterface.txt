@@ -1,0 +1,41 @@
+            
+What is Functional Interface :---->
+
+The Interface who contains only one abstract method but can have multiple default and 
+static method is called functional interface. 
+It can contain any number of Object class methods.  
+
+Example of functional Interface in JAVA:-->
+
+Runnable 	-----------------> run()
+Callable 	-----------------> call()
+Comparable  -----------------> compareTo()
+Comparator  -----------------> compare()   
+
+Runnable , Callable, Comparable and Comparator , these 4 are functional interface.
+These functional interface contains only 1 method.
+Runnable 	functional interface contains only 1 method	-----------------> run() 
+Callable 	functional interface contains only 1 method	-----------------> call()
+Comparable 	functional interface contains only 1 method -----------------> compareTo()
+Comparator 	functional interface contains only 1 method -----------------> compare() 
+
+
+
+What is difference between normal interface and functional interface?
+Java interface can have any number of abstract methods however functional interface must 
+have only one abstract method.
+
+Why do we use functional interface?
+A functional interface is an interface that contains only a single abstract method 
+(a method that doesn't have a body). The main reason why we need functional interfaces 
+is that we can use them in a lambda expression and method references.
+
+Functional Interfaces Can Be Implemented by a Lambda Expression.
+
+The Java Function interface (java.util.function.Function) interface. 
+The Function interface represents a function (method) that takes a single parameter 
+and returns a single value.
+
+
+
+ 

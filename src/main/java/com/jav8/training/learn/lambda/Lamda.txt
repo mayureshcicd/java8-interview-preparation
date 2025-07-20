@@ -1,0 +1,18 @@
+Lambda Expression :-->
+
+The Expression through which we can represent an Anonymous function.
+Anonymous means Nameless/Unknown. 
+Function or method  don't have any name or prefix called Anonymous function.
+Using  Lambda Expression we can convert all abstract method to Anonymous function.
+Lambda Expression only applicable for functional interface.
+
+
+Anonymous function : A method who don't have any name or modifier.
+Syntax :  Parameter     Expression     Body
+            ()            ->           { System.out.println("Lambda Syntax"); }
+            
+            
+
+
+
+ 

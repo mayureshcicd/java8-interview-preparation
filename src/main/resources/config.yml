@@ -1,0 +1,7 @@
+app:
+  name: MyYamlApp
+  version: 2.1
+  features:
+    - login
+    - dashboard
+    - notifications

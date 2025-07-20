@@ -1,0 +1,28 @@
+With Java 8, Collection interface has two methods to generate a Stream.
+
+    stream() − Returns a sequential stream considering collection as its source.
+
+    parallelStream() − Returns a parallel Stream considering collection as its source.
+
+    Stream API is used to process collections of objects.
+    A stream is sequence of objects that supports various methods
+    which can be pipelined to produce the desired result.
+    
+    A stream is not a data structure instead it takes input from
+    the collections, Arrays or I/O channels.
+    
+    Streams don't change the original data structure, they only
+    provide the result as per the pipelined methods.
+    
+    Aggregation operations such as filter, reduce, match, find,  etc are supported by stream.
+	Laziness can be considered as a feature of the stream, as it evaluates the codes only when
+	required.
+	Visitation of the elements present in the stream can only be done once during the lifetime of a 
+	stream. A new stream must be created to revisit the same elements present in the source.
+	
+	Why we required stream
+	1. for functional programming
+	2. using lambda expressions we can reduce the code and we can do method chaining.
+	3. bulk operations.
+	for better understanding :--> https://www.edureka.co/blog/stream-in-java/
+	https://jenkov.com/tutorials/java-functional-programming/streams.html
